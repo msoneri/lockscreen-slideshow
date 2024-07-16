@@ -14,4 +14,4 @@ fi
 
 random_file=$(find "$directory" -type f | shuf -n 1)
 
-$(mv $random_file $destination)
+$(cp $random_file $destination)
